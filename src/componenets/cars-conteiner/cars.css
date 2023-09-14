@@ -12,5 +12,22 @@
 }
 
 
+@media only screen and (max-width:756px){
+    .cars-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 10px;
+      
+    
+    }
+
+    .brand-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 45px;
+    }
+}
+
+
     
 
